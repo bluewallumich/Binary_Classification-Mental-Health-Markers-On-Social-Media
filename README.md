@@ -7,7 +7,8 @@ Dataset is too large for Github and can be found here:  https://www.kaggle.com/d
 
 The classification report shows the results of a binary classification task with two classes: non-suicide and suicide.
 
-              precision    recall  f1-score   support
+```
+                precision    recall  f1-score   support
 
  non-suicide       0.94      0.86      0.90     23040
      suicide       0.87      0.94      0.91     23375
@@ -15,6 +16,7 @@ The classification report shows the results of a binary classification task with
     accuracy                           0.90     46415
    macro avg       0.91      0.90      0.90     46415
 weighted avg       0.91      0.90      0.90     46415
+```
 
 ## Precision
 
