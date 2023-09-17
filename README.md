@@ -79,7 +79,9 @@ To better understand the model's performance and the data characteristics:
 
 ## Future Work
 **Model Enhancement**: Further refinement to detect a broader range of mental health issues.
+
 **Data Expansion**: Incorporate emojis, images, and user interactions for a holistic analysis.
+
 **Bias Mitigation**: Evaluate the model for biases and ensure fairness in predictions.
 
 ## Contributions
