@@ -14,7 +14,7 @@ Utilizing the power of machine learning and NLP, this project endeavors to analy
 - [Ethical Considerations](#ethical-considerations)
 - [Future Work](#future-work)
 - [Contributions](#contributions)
-- [Acknowledgments](#acknowledgments
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 The increasing global prominence of mental health concerns and the ubiquity of social media platforms combine to offer a unique opportunity. By analyzing the vast textual data available on these platforms, we aim to gain insights into individuals' mental states, potentially leading to early detection of distress signals and timely interventions.
@@ -44,13 +44,47 @@ Our model achieved promising results in preliminary tests:
 ```
 
 ## Visualization Recommendations
-To better understand the model's performance and the data characteristics, we suggest:
+To better understand the model's performance and the data characteristics:
+
 
 1. **Confusion Matrix**: Displays the number of actual vs. predicted classifications.
-![Optional Alt Text](path/to/uploaded/image.png)
+
+![Optional Alt Text](matrix.png)
+
+
 2. **ROC-AUC Curve**: Assesses the model's discriminative power between classes.
-![Optional Alt Text](path/to/uploaded/image.png)
+
+![Optional Alt Text](RocCurve.png)
+
+
 3. **Feature Importance**: Useful if deploying tree-based models to see which terms or n-grams are most impactful.
-![Optional Alt Text](path/to/uploaded/image.png)
-4. **Word Clouds**: Visualize frequently occurring terms within each class.
-![Optional Alt Text](path/to/uploaded/image.png)  
+
+![Optional Alt Text](Distrobution.png)
+
+4. **Precision**: Visualize the performance of a binary classifier as the discrimination threshold varies
+
+![Optional Alt Text](precisioncurve.png) 
+  
+6. **Word Clouds**: Visualize frequently occurring terms within each class.
+![Optional Alt Text](wordcloud.png)
+
+
+ ## Ethical Considerations
+
+ Mental health is a sensitive domain. While our model can be a valuable tool:
+
+- It should not replace professional evaluation.
+- User data privacy is paramount; always anonymize and securely store data.
+- Obtain informed consent where necessary.
+
+## Future Work
+**Model Enhancement**: Further refinement to detect a broader range of mental health issues.
+**Data Expansion**: Incorporate emojis, images, and user interactions for a holistic analysis.
+**Bias Mitigation**: Evaluate the model for biases and ensure fairness in predictions.
+
+## Contributions
+All collaborators and contributors! Please ensure ethical guidelines are adhered to and respect user privacy when suggesting or implementing changes.
+
+## Acknowledgments
+- Special thanks to ChatGPT for giving reocomendations on speeding up ROC-AUC curve.
+- Special thanks to nikhileswarkomati for providing a Kaggle dataset.
