@@ -43,4 +43,14 @@ Our model achieved promising results in preliminary tests:
    weighted avg       0.91      0.90      0.90     46415
 ```
 
-   
+## Visualization Recommendations
+To better understand the model's performance and the data characteristics, we suggest:
+
+1. **Confusion Matrix**: Displays the number of actual vs. predicted classifications.
+![Optional Alt Text](path/to/uploaded/image.png)
+2. **ROC-AUC Curve**: Assesses the model's discriminative power between classes.
+![Optional Alt Text](path/to/uploaded/image.png)
+3. **Feature Importance**: Useful if deploying tree-based models to see which terms or n-grams are most impactful.
+![Optional Alt Text](path/to/uploaded/image.png)
+4. **Word Clouds**: Visualize frequently occurring terms within each class.
+![Optional Alt Text](path/to/uploaded/image.png)  
